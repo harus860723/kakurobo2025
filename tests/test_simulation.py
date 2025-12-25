@@ -11,8 +11,8 @@ def test_simulation_length():
     true_pos, obs, est = run_simulation(
         steps=steps,
         steps_move=1.0,
-        process_noise=0.0,
-        observation_noise=0.0
+        process_noise=1e-6,
+        observation_noise=1e-6
     )
 
     assert len(true_pos) == steps
