@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Haruki Matsushita
+# SPDX-License-Identifier: BSD-3-Clause
 #シミュレーション
 import numpy as np
 from robot import Robot

@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Haruki Matsushita
+# SPDX-License-Identifier: BSD-3-Clause
 #カルマンフィルタ本体
 #観測値だけを使って見えない状態を推定する装置
 #推定アルゴリズムの中核

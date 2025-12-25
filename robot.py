@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Haruki Matsushita
+# SPDX-License-Identifier: BSD-3-Clause
 #1次元のロボットモデル
 #ロボットの状態
 import numpy as np
