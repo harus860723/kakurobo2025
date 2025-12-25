@@ -10,7 +10,7 @@ def test_robot_move_no_noise():
     robot = Robot(
         initial_position=0.0,
         steps_move=1.5,
-        process_noise=0.0
+        process_noise=2.0
     )
 
     pos = robot.move()

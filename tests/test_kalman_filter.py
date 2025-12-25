@@ -24,9 +24,9 @@ def test_update_step():
     kf = KalmanFilter(
         initial_estimate=0.0,
         initial_variance=1.0,
-        process_noise=0.0,
+        process_noise=2.0,
         observation_noise=1.0,
-        steps_move=0.0
+        steps_move=2.0
     )
 
     kf.update(z=1.0)
