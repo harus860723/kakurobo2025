@@ -76,7 +76,7 @@ v_k \sim \mathcal {N}(0,R)
 * 予測ステップ
 ```math
 \begin{align}
-\hat{x}_{k|k-1} = x^{^}_{k-1} + v
+\hat{x}_{k|k-1} = \hat{x}_{k-1} + v
 \end{align}
 ```
 ```math
