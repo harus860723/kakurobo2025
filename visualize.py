@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Haruki Matsushita
 # SPDX-License-Identifier: BSD-3-Clause
-#結果の可視化
+# 結果の可視化
 import matplotlib.pyplot as plt
 
 
