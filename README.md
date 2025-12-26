@@ -50,7 +50,7 @@ $ python3 main.py
 * 
 ```math
 \begin{align}
-x_k &= x_{k-1} + v + w_k,&
+x_k = x_{k-1} + v + w_k,&
 w_k \sim \mathcal {N}(0,Q)
 \end{align}
 
