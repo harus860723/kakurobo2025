@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Haruki Matsushita
 # SPDX-License-Identifier: BSD-3-Clause
-#main
+# 実行用スクリプト
 from simulation import run_simulation
 from visualize import plot_results
 
