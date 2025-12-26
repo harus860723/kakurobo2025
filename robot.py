@@ -5,13 +5,13 @@
 import numpy as np
 
 
-class Robot:#1次元のロボットを表すクラス,状態は位置のみ(スカラー)
+class Robot:                                                            #1次元のロボットを表すクラス，状態は位置のみ
     def __init__(self, initial_position, steps_move, process_noise):
-        self.position = initial_position #initial_position:初期位置
-        self.steps_move = steps_move #steps_move:1ステップ当たりの移動量
-        self.process_noise = process_noise #process_noise:プロセスノイズ分散Q
+        self.position = initial_position                                #initial_position:初期位置
+        self.steps_move = steps_move                                    #steps_move:1ステップ当たりの移動量
+        self.process_noise = process_noise                              #process_noise:プロセスノイズ分散Q
 
-    def move(self):#1ステップ進んだ後の位置
-        noise = np.random.normal(0.0, np.sqrt(self.process_noise))#ノイズ生成#xk​=xk−1​+v+wk​,wk​∼N(0,Q)
+    def move(self):                                                     #1ステップ進んだ後の位置
+        noise = np.random.normal(0.0, np.sqrt(self.process_noise))      #ノイズ生成
         self.position += self.steps_move + noise
-        return self.position #位置を返す
+        return self.position                                            #位置を返す
