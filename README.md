@@ -50,8 +50,8 @@ $ python3 main.py
 * 
 ```math
 \begin{align}
-x_k = x_k-1 + v + w_k,
-w_k ~ N(0,Q)
+x_k = x_k_-1 + v + w_k,
+w_k \~\ N(0,Q)
 \end{align}
 ```
 * 
