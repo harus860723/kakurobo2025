@@ -93,7 +93,7 @@ K_k = \frac{P_{k|k-1}}{P_{k|k-1}+R}
 ```
 ```math
 \begin{align}
-\hat{x} = \hat{x}_{k|k-1} + K_k(z_k - \hat{x|k-1})
+\hat{x} = \hat{x}_{k|k-1} + K_k(z_k - {x|k-1})
 \end{align}
 ```
 ```math
