@@ -31,7 +31,7 @@ $ python3 main.py
 
 #### 実行結果
 * 以下の3つがグラフ上に表示される．
-	* ノイズを含みロボットの位置(True Position)
+	* ノイズを含むロボットの位置(True Position)
 	* 観測ノイズを含んだ観測値(Observation)
 	* カルマンフィルタによる推定位置(Kalman Estimate)
 
