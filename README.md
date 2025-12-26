@@ -20,11 +20,12 @@
 $ git clone https://github.com/harus860723/kakurobo2025.git
 ```
 
-####　実行
-
+#### 実行
+* 実行用のスクリプトを実行
 ```
 $ python3 main.py
 ```
+
 ### システム構成
 
 ```
