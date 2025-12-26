@@ -39,9 +39,9 @@ $ python3 main.py
 * システムの構成をいかに示す
 ```
 ├── main.py             # 実行用スクリプト
-├── robot.py            # 1次元ロボットモデル
+├── robot.py            # 1次元ロボットモデル(ロボットの状態)
 ├── kalman_filter.py    # カルマンフィルタ実装
-├── simulation.py       # シミュレーション全体の流れ
+├── simulation.py       # シミュレーション制御
 └── visualize.py        # 結果の可視化
 ```
 
