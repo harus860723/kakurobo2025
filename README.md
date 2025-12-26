@@ -84,7 +84,7 @@ v_k \sim \mathcal {N}(0,R)
 P_{k|k-1} = P_{k-1} + Q
 \end{align}
 ```
-frac{1}{2}
+
 * 更新ステップ
 ```math
 \begin{align}

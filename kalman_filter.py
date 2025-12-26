@@ -19,7 +19,7 @@ class KalmanFilter:
         self.P = initial_variance           #推定誤差分散Pk
         self.Q = process_noise              #プロセスノイズ Q
         self.R = observation_noise          #観測ノイズ R
-        self.steps_move = steps_move        #制御入力 uk
+        self.steps_move = steps_move        #制御入力 vk
 
     def predict(self):                      #予測
         self.x = self.x + self.steps_move   #状態予測
