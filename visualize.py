@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 
-def plot_results(true_positions, observations, estimates):
+def plot_results(true_positions, observations, estimates, save_path="image/result.png"):
     plt.figure(figsize=(10, 5))
 
     plt.plot(
@@ -39,4 +39,5 @@ def plot_results(true_positions, observations, estimates):
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
+    plt.savefig(save_path, dpi=300)
     plt.show()
