@@ -14,7 +14,10 @@
 
 ### 実行方法
 #### 準備
-* 使用ライブラリの環境を整える．
+* 実行環境を整える．
+	* Python3
+	* Numpy
+	* Matplotlib
 * cloneコマンドを使用しリポジトリをインストールする．
 ```
 $ git clone https://github.com/harus860723/kakurobo2025.git
@@ -27,7 +30,7 @@ $ python3 main.py
 ```
 
 ### システム構成
-
+* 
 ```
 ├── main.py             # 実行用スクリプト
 ├── robot.py            # 1次元ロボットモデル
