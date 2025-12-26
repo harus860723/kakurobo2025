@@ -29,6 +29,12 @@ $ git clone https://github.com/harus860723/kakurobo2025.git
 $ python3 main.py
 ```
 
+#### 実行結果
+* 以下の3つがグラフ上に表示
+	* ノイズを含みロボットの位置(True Position)
+	* 観測ノイズを含んだ観測値(Observation)
+	* カルマンフィルタによる推定位置(Kalman Estimate)
+
 ### システム構成
 * 
 ```
