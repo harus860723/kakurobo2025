@@ -12,7 +12,7 @@ class KalmanFilter:
         initial_variance,                   #初期分散 P0
         process_noise,                      #プロセスノイズ分散 Q
         observation_noise,                  #観測ノイズ分散 R
-        steps_move                          #1ステップ当たりの移動量
+        steps_move                          #1ステップ当たりの移動量v
         ):
 
         self.x = initial_estimate           #状態推定位置^xk

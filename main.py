@@ -9,8 +9,8 @@ def main():
     true_positions, observations, estimates = run_simulation(
         steps=50,                                               #ステップ数
         steps_move=1.0,                                         #1ステップ移動量
-        process_noise=1.0,                                      #プロセスノイズ分散
-        observation_noise=25.0                                  #観測ノイズ分散
+        process_noise=0.10,                                      #プロセスノイズ分散
+        observation_noise=1.0                                   #観測ノイズ分散
     )
 
     plot_results(true_positions, observations, estimates)

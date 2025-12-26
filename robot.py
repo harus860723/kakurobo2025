@@ -8,7 +8,7 @@ import numpy as np
 class Robot:                                                            #1次元のロボットを表すクラス，状態は位置のみ
     def __init__(self, initial_position, steps_move, process_noise):
         self.position = initial_position                                #initial_position:初期位置
-        self.steps_move = steps_move                                    #steps_move:1ステップ当たりの移動量
+        self.steps_move = steps_move                                    #steps_move:1ステップ当たりの移動量v
         self.process_noise = process_noise                              #process_noise:プロセスノイズ分散Q
 
     def move(self):                                                     #1ステップ進んだ後の位置
