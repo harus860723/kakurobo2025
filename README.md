@@ -84,9 +84,23 @@ v_k \sim \mathcal {N}(0,R)
 P_{k|k-1} = P_{k-1} + Q
 \end{align}
 ```
-
+frac{1}{2}
 * 更新ステップ
-
+```math
+\begin{align}
+K_k = \frac{P_{k|k-1}}{P_{k|k-1}+R}
+\end{align}
+```
+```math
+\begin{align}
+\hat{x} = \hat{x}_{k|k-1} + K_k(z_k - \hat{x|k-1})
+\end{align}
+```
+```math
+\begin{align}
+P_k = (1 - K_k)P_{k|k-1}
+\end{align}
+```
 * kalman_filter.pyで実装される
 
 #### シミュレーション制御
