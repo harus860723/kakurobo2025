@@ -76,17 +76,17 @@ v_k \sim \mathcal {N}(0,R)
 * 予測ステップ
 ```math
 \begin{align}
-x_k = x_{k-1} + v + w_k,&
-w_k \sim \mathcal {N}(0,Q)
+x^{^}_{k|k-1} = x^{^}_{k-1} + v
 \end{align}
 ```
-* 更新ステップ
 ```math
 \begin{align}
-x_k = x_{k-1} + v + w_k,&
-w_k \sim \mathcal {N}(0,Q)
+P_{k|k-1} = P_{k-1} + Q
 \end{align}
 ```
+
+* 更新ステップ
+
 * kalman_filter.pyで実装される
 
 #### シミュレーション制御
